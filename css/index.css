@@ -1,34 +1,72 @@
-body{
+  /*body{
+    margin: 20%;
+    background-color: #00FA9A;
+  }
+  img{
+    width: 100%;
+  /* display: inline-block;*
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+  }*
+  .Small{
+    display: block;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    margin-top: 6px;
+  }
+  .title{
+    text-align: center;
+    font-size: 7vh;
+    text-shadow :5px 5px 10px black;
+    
+  }
+  .tribute-page{
+    margin :11px;
+    background-color: rgb(46, 139, 87, 0.40);
+    margin-top: 50px;
+    padding: 25px 25px;
+    box-shadow: 20px 20px 20px #98FB98;
+  }
+*/
+body {
   margin: 20%;
-  background-color: #00FA9A;
+  background-color: #F0F8FF; /* Light Alice Blue for a soft background */
 }
-img{
+
+img {
   width: 100%;
- /* display: inline-block;*/
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
 }
-.Small{
+
+.Small {
   display: block;
   font-size: 17px;
   font-family: Arial, Helvetica, sans-serif;
-  color: black;
+  color: #000000; /* Black color for text */
   text-align: center;
   margin-top: 6px;
 }
-.title{
+
+.title {
   text-align: center;
   font-size: 7vh;
-  text-shadow :5px 5px 10px black;
-  
+  color: #000080; /* Dark Blue for the title */
+  text-shadow: 5px 5px 10px #4682B4; /* Steel Blue shadow for a nice contrast */
 }
-.tribute-page{
-  margin :11px;
-  background-color: rgb(46, 139, 87, 0.40);
+
+.tribute-page {
+  margin: 11px;
+  background-color: rgba(70, 130, 180, 0.4); /* Light Sea Blue with transparency */
   margin-top: 50px;
-  padding: 25px 25px;
-  box-shadow: 20px 20px 20px #98FB98;
+  padding: 25px;
+  box-shadow: 20px 20px 20px rgba(70, 130, 180, 0.5); /* Light Sea Blue shadow */
 }
